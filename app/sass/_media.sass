@@ -1,0 +1,816 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1220px)
+  .main-left
+    max-width: 500px
+
+  .menu li
+    margin: 0 15px 0 0
+
+  .menu li.logo-item
+    margin: 0 10px
+
+  .logo
+    width: 195px
+    height: 175px
+    padding: 95px 30px 34px
+
+  .list-social li
+    margin: 0 10px 0 0
+
+  .about-image .image-wrapper
+    width: 740px
+    left: -165px
+
+  .tooltip-wrapper:nth-child(3)
+    left: 230px
+
+  .about-image
+    width: 700px
+    height: 700px
+    &:before
+      width: 450px
+      height: 450px
+
+  .tooltip-wrapper:nth-child(2)
+    right: -4px
+    top: 215px
+
+  .tooltip-wrapper:first-child
+    top: 73px
+
+  .a_plus > p
+    font-size: 12px
+    line-height: 16px
+
+  .about-text
+    max-width: 420px
+
+  h2
+    font-size: 26px
+    line-height: 34px
+
+  .reviews-slider
+    min-width: 1450px
+    width: calc(100% - 400px)
+    left: 400px
+
+  .reviews-box
+    width: 500px
+
+  .modal__div .modal__wrapper:before
+    width: 47%
+
+  .modal__div
+    width: 80%
+
+  .owl-carousel .owl-nav button.owl-next
+    right: 36%
+
+  .modal-wrapper__text, .photo-wrapper, .modal__div .modal__wrapper
+    min-height: 400px
+
+  .modal__div .modal__wrapper
+    max-height: none
+
+  .modal__div .modal__wrapper
+    height: auto
+
+
+  .modal__div .modal__wrapper:before
+    min-height: auto
+
+  .links-next
+    font-size: 12px
+
+  .box-contacts
+    left: 15px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1090px)
+  .btn-burger
+    display: flex
+
+  .nav.open
+    left: 0
+    z-index: 4
+
+  .nav
+    position: fixed
+    left: -100%
+    top: 0
+    height: 100%
+    width: 270px
+    overflow-y: auto
+    padding: 30px 20px
+    background: #f0e0c6
+
+  .menu
+    flex-direction: column
+    align-items: flex-start
+    li
+      margin: 0 0 10px
+    li.logo-item
+      order: -1
+      margin: -35px auto 20px
+
+  .logo-mobile
+    display: flex
+    //margin: -66px auto 0
+    position: absolute
+    left: 50%
+    transform: translate(-50%,0)
+    margin: 0
+    top: -66px
+
+  .logo
+    width: 140px
+    height: 150px
+    padding: 80px 20px 34px
+
+  header
+    padding: 10px 0 0
+    .list-social
+      margin: 0 auto 0 0
+
+  h1
+    font-size: 28px
+    line-height: 36px
+    max-width: none
+
+  .title-description
+    font-size: 24px
+
+  .main-left
+    max-width: 420px
+
+  main .image-wrap
+    margin-left: 0
+
+  .box-product__max
+    width: 600px
+    padding: 25px 30px 22px
+
+  .top-works .container
+    justify-content: space-around
+
+  .about-text h3
+    font-size: 20px
+
+  .about-text p
+    font-size: 14px
+    line-height: 24px
+
+  .about-text
+    max-width: 350px
+
+  .stages-work__box
+    margin: 0 0 50px
+    max-width: 200px
+
+  .contacts
+    height: 530px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 992px)
+  main .image-wrap
+    width: 300px
+    height: 300px
+
+  main .image-wrap:before
+    width: 250px
+    height: 250px
+
+  main .image:before
+    width: 200px
+    height: 200px
+
+  main .image
+    width: 237px
+    height: 198px
+
+  .main-right .box-image .text
+    font-size: 20px
+    max-width: 189px
+    margin: 0 20px -31px 0
+
+  .list-advantages li
+    min-width: auto
+
+  .main-left
+    max-width: 380px
+
+
+  .box-title .btn-accent
+    margin: 30px 0 20px
+
+  .box-product__min
+    width: 300px
+
+  .price
+    font-size: 19px
+    .icon
+      width: 10px
+      margin: 0 0 0 10px
+
+  .box-product__min .size
+    font-size: 11px
+
+  .btn-border
+    width: 115px
+    height: 35px
+    font-size: 12px
+
+  .box-product__min h3
+    max-width: 140px
+    font-size: 11px
+
+  .box-product__min .list-characteristics
+    font-size: 12px
+
+  .box-product__min .image
+    width: 270px
+    height: 180px
+
+  .box-product__max
+    width: 530px
+    height: 360px
+    .price
+      font-size: 30px
+      .icon
+        width: 15px
+        margin: 0 0 0 10px
+
+
+  .box-product__max .image:before
+    width: 100%
+    height: 100%
+    -webkit-background-size: cover
+    background-size: cover
+
+  .box-product__max .title-product
+    margin: 20px 0 30px
+
+  .box-product__max .list-characteristics li
+    margin: 0 0 10px
+
+  .about-image
+    width: 550px
+    height: 550px
+
+  .about-image:before
+    width: 400px
+    height: 400px
+
+  .about-image .image-wrapper
+    width: 500px
+    left: -15px
+
+  .tooltip-wrapper:first-child
+    top: 27px
+
+  .tooltip-wrapper:nth-child(2)
+    right: -72px
+
+  .about-image .text-wrap
+    width: 130px
+    height: 130px
+    font-size: 12px
+    top: 226px
+    p
+      line-height: 20px
+
+  .about-image .img-hand
+    max-width: 150px
+
+  .tooltip-wrapper:nth-child(3)
+    bottom: 125px
+
+  .reviews-slider
+    width: 100%
+    left: 0
+    position: relative
+    top: 0
+    transform: translate(0)
+    min-width: auto
+    &:before
+      display: none
+
+  .reviews-box
+    width: 100%
+    height: auto
+
+  .reviews-slider .slide
+    padding: 40px 50px 20px
+
+  .reviews
+    padding: 50px 0
+    .box-title
+      max-width: none
+
+  .reviews-slider .slick-arrow
+    bottom: 0
+    top: 50%
+    transform: translate(0,-50%)
+    width: 30px
+    height: 30px
+    -webkit-background-size: 10px
+    background-size: 10px
+
+  .reviews-slider .slick-prev
+    left: 10px
+
+  .reviews-slider .slick-next
+    left: auto
+    right: 10px
+
+  .modal__div
+    width: 90%
+
+  .modal-wrapper__text
+    max-width: 350px
+    h2
+      margin: 20px 0 30px
+
+  .modal-wrapper__text .list-characteristics
+    font-size: 12px
+    line-height: 20px
+
+  .modal-wrapper__text h2
+    font-size: 13px
+
+@media only screen and (max-width: 860px)
+  .list-advantages li
+    font-size: 13px
+    line-height: 20px
+
+  .main-left
+    max-width: none
+    width: 100%
+    position: relative
+    padding: 0 250px 0 0
+    .image-wrap
+      margin: 0
+      position: absolute
+      right: 0
+      top: 50%
+      transform: translate(0,-50%)
+      width: 250px
+      height: 250px
+      &:before
+        width: 210px
+        height: 210px
+
+  main .image:before
+    width: 170px
+    height: 170px
+
+  main .image
+    width: 205px
+    height: 169px
+
+  .main-right .box-image .text
+    margin: 0 20px 0 0
+
+  .main-right
+    margin: 30px auto
+
+  .box-title
+    max-width: none
+    flex-direction: row
+    flex-wrap: wrap
+    align-items: center
+    .btn-accent
+      margin: 0 0 0 auto
+    .links
+      width: 50%
+      margin: 20px auto 0
+
+  .top-works .container .btn-view
+    margin: 20px auto 0
+
+  .about-text
+    order: -1
+    max-width: none
+    margin: 0 0 30px
+    width: 100%
+    p
+      margin: 10px 0 20px
+    h3
+      max-width: none
+      margin: 0 0 20px
+      br
+        display: none
+
+  .form-gauge
+    max-width: none
+    button
+      margin: 30px 0
+
+  .about-image
+    margin: 0
+
+  .stages-work__box
+    max-width: none
+    width: 100%
+    &:last-child
+      &:before
+        display: block
+    h3
+      min-height: auto
+
+  .stages-work__box .number:after
+    display: none
+
+  .modal-wrapper__text
+    margin: 0
+    max-width: none
+    width: 100%
+    padding: 20px
+    height: auto
+    order: -1
+
+  .modal-wrapper__text, .photo-wrapper, .modal__div .modal__wrapper
+    min-height: auto
+
+  .modal__div .modal__wrapper:before
+    display: none
+
+  .photo-wrapper
+    padding: 0
+
+  .modal__div .modal__wrapper
+    background: #dbb37f
+
+  .modal__div
+    width: 300px
+
+  .photo-wrapper
+    height: auto
+    border-radius: 15px
+    padding: 0 10px
+
+  .photo-preview__min
+    position: relative
+    width: 100%
+    left: 0
+    bottom: 0
+
+  .photo-min
+    width: 75px
+    height: 59px
+    &:before
+      width: 104px
+      height: 72px
+
+  .photo-slider__max
+    border-radius: 15px
+    overflow: hidden
+
+  .modal-wrapper__text .modal__close
+    margin: 0 0 0 auto
+
+  .modal-wrapper__text h2
+    margin: 10px 0 15px
+
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot
+    width: 30px
+    height: 30px
+
+  .owl-carousel .owl-nav button.owl-next
+    right: 10px
+
+  .owl-carousel .owl-nav button.owl-prev
+    left: 10px
+
+@media only screen and (max-width: 768px)
+  .logo-mobile
+    position: relative
+    left: 0
+    transform: translate(0)
+    top: 0
+    margin: -66px auto 0
+
+  .btn-burger
+    margin: 0 0 0 20px
+
+  .about-image
+    width: 450px
+    height: 450px
+    &:before
+      width: 290px
+      height: 290px
+
+  .about-image .image-wrapper
+    width: 350px
+    top: 96px
+
+  .about-image .text-wrap
+    top: 140px
+    left: 107px
+
+  .tooltip-wrapper:nth-child(3)
+    bottom: 90px
+    left: 140px
+
+  .tooltip-wrapper:first-child
+    left: 41%
+
+  .tooltip-text
+    font-size: 10px
+    height: 286px
+    width: 185px
+
+  .stages-work .title-description
+    font-size: 20px
+
+  .stages-work__content
+    margin: 50px 0 0 0
+
+  .address
+    font-size: 12px
+
+  .mail
+    margin: 10px 0 15px
+
+  .box-contacts h2
+    margin: 0 0 40px
+
+  .box-contacts
+    width: 345px
+
+  .photo-min
+    width: 67px
+    height: 59px
+    &:before
+      width: 90px
+      height: 60px
+
+  .photo-preview__min
+    width: 100%
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px)
+  header
+    padding: 0
+    .list-social
+      order: 1
+      width: 100%
+      justify-content: center
+      li
+        &:last-child
+          margin: 0
+
+  .logo-mobile
+    margin: -66px auto 0 0
+
+  .box-call
+    width: 168px
+
+  .links-callback
+    letter-spacing: 0
+    font-size: 8px
+
+  .phone
+    font-size: 10px
+
+  .box-call .icon
+    width: 30px
+    height: 30px
+    min-width: 30px
+
+  .logo
+    width: 95px
+    height: 125px
+    padding: 63px 18px 20px
+    margin: -57px auto 0 0
+
+  .btn-burger
+    width: 15px
+    margin: 0 0 0 10px
+
+  .list-advantages
+    flex-direction: column
+    align-items: flex-start
+    li
+      margin: 0 0 20px
+      width: 100%
+
+  .box-product__max
+    width: 100%
+    height: auto
+
+  .box-product__max .title-product
+    margin: 20px 0
+    font-size: 15px
+    line-height: 24px
+    max-width: 205px
+
+  .box-product__max .price
+    font-size: 24px
+
+  .maps
+    width: 100%
+    height: 300px
+
+    order: 1
+
+  .box-contacts
+    width: 100%
+    height: auto
+    position: relative
+    left: 0
+    &:before
+      width: 100%
+      height: 100%
+
+  .contacts
+    display: flex
+    flex-direction: column
+    height: auto
+    .container
+      padding: 0
+
+@media only screen and (max-width: 530px)
+  .main-left
+    padding: 0
+    .image-wrap
+      position: relative
+      transform: translate(0)
+      top: 0
+      margin: 30px auto
+
+  .main-right
+    margin: 0 auto
+    .box-image
+      display: none
+
+  main
+    padding: 150px 0 50px
+
+  .about-image
+    width: 290px
+    height: 290px
+    &:before
+      width: 200px
+      height: 200px
+
+  .about-image .image-wrapper
+    width: 244px
+    top: 56px
+
+  .tooltip-wrapper:first-child
+    top: -2px
+    left: 35%
+
+  .about-image .text-wrap
+    width: 100px
+    height: 100px
+    font-size: 9px
+    top: 80px
+    left: 30px
+    &:before
+      left: 8px
+    &:after
+      right: 8px
+    p
+      line-height: 14px
+
+  .about-image .img-hand
+    max-width: 110px
+    right: 0
+    top: 10px
+
+  .tooltip-wrapper:nth-child(2)
+    top: 79px
+    right: -97px
+
+  .tooltip-wrapper:nth-child(3)
+    bottom: 40px
+    left: 62px
+
+  .a_plus > p
+    font-size: 10px
+
+  .tooltip-wrapper:nth-child(3) .a_plus > p
+    max-width: 47px
+    margin: 0 0 0 2px
+
+  .tooltip-wrapper:first-child .a_plus > p
+    max-width: 62px
+
+  .box-title
+    flex-direction: column
+    align-items: flex-start
+    .btn-accent
+      margin: 30px 0 0 0
+    .links
+      width: auto
+      margin: 30px 0 0 0
+
+
+@media only screen and (max-width: 480px)
+  .box-product__wrapper
+    height: 270px
+
+  .wrapper-hover
+    padding: 129px 17px 19px
+
+  .reviews .box-title p
+    font-size: 18px
+    line-height: 24px
+    margin: 20px 0 0 0
+
+  .reviews-box .text
+    font-size: 12px
+    line-height: 20px
+
+  .reviews-box__name
+    font-size: 16px
+
+  .reviews-box
+    padding: 45px 34px 20px 20px
+
+  .reviews-slider .slide
+    padding: 40px 40px 20px
+
+  .reviews-box .photo
+    width: 50px
+    height: 50px
+    min-width: 50px
+
+  .about-text
+    text-align: center
+
+  .form-gauge
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  .checkbox
+    justify-content: center
+
+  h2
+    text-align: center
+    margin: 0 auto
+
+  .title-description, .box-title .btn-accent, .box-title .links
+    margin: 30px auto 0
+
+  .box-title
+    text-align: center
+
+  h1
+    text-align: center
+
+  .title-description
+    text-align: center
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 420px)
+  .box-product__max
+    flex-direction: column
+    align-items: flex-start
+
+  .box-product__left
+    width: 100%
+
+  .box-product__max .price
+    margin: 30px 0 0 0
+
+  .tooltip-wrapper:nth-child(2)
+    right: 24px
+    top: 11px
+    .a_plus
+      flex-direction: column
+      align-items: center
+      > p
+        order: -1
+        margin: 0 3px 0 0
+
+  .a_plus > p
+    max-width: 95px
+
+  .about-image .text-wrap
+    left: 7px
+
+  .tooltip-wrapper:nth-child(3)
+    bottom: 52px
+    left: 58px
+
+  .tooltip-wrapper:first-child
+    left: 29%
+
+  .tooltip-icon
+    width: 30px
+    height: 30px
+    &:before
+      width: 22px
+      height: 22px
+
